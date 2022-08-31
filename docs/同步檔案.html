@@ -6,16 +6,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Chapter 5 同步檔案 | 跟著蜥蜴學Zotero</title>
 <meta name="author" content="林協霆醫師">
-<meta name="description" content='5.1 檔案路徑   5.2 Zotfile   5.3 連結資料夾  5.3.1 Mac ln -s /Volumes/GoogleDrive/我的雲端硬碟/Zotero/storage ~/Zotero/storage  5.3.2 Windows mklink /j "C:\Users\YOUR_USER_NAME\Zotero\storage"...'>
+<meta name="description" content='5.1 Zotfile zotero文献管理器插件：ZotFile - 知乎  5.2 連結資料夾  5.2.1 Mac ln -s /Volumes/GoogleDrive/我的雲端硬碟/Zotero/storage ~/Zotero/storage  5.2.2 Windows mklink /j "C:\Users\YOUR_USER_NAME\Zotero\storage"...'>
 <meta name="generator" content="bookdown 0.28 with bs4_book()">
 <meta property="og:title" content="Chapter 5 同步檔案 | 跟著蜥蜴學Zotero">
 <meta property="og:type" content="book">
 <meta property="og:url" content="https://htlin222.github.io/lizard-on-zotero/同步檔案.html">
 <meta property="og:image" content="https://htlin222.github.io/lizard-on-zotero/images/cover.png">
-<meta property="og:description" content='5.1 檔案路徑   5.2 Zotfile   5.3 連結資料夾  5.3.1 Mac ln -s /Volumes/GoogleDrive/我的雲端硬碟/Zotero/storage ~/Zotero/storage  5.3.2 Windows mklink /j "C:\Users\YOUR_USER_NAME\Zotero\storage"...'>
+<meta property="og:description" content='5.1 Zotfile zotero文献管理器插件：ZotFile - 知乎  5.2 連結資料夾  5.2.1 Mac ln -s /Volumes/GoogleDrive/我的雲端硬碟/Zotero/storage ~/Zotero/storage  5.2.2 Windows mklink /j "C:\Users\YOUR_USER_NAME\Zotero\storage"...'>
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Chapter 5 同步檔案 | 跟著蜥蜴學Zotero">
-<meta name="twitter:description" content='5.1 檔案路徑   5.2 Zotfile   5.3 連結資料夾  5.3.1 Mac ln -s /Volumes/GoogleDrive/我的雲端硬碟/Zotero/storage ~/Zotero/storage  5.3.2 Windows mklink /j "C:\Users\YOUR_USER_NAME\Zotero\storage"...'>
+<meta name="twitter:description" content='5.1 Zotfile zotero文献管理器插件：ZotFile - 知乎  5.2 連結資料夾  5.2.1 Mac ln -s /Volumes/GoogleDrive/我的雲端硬碟/Zotero/storage ~/Zotero/storage  5.2.2 Windows mklink /j "C:\Users\YOUR_USER_NAME\Zotero\storage"...'>
 <meta name="twitter:image" content="https://htlin222.github.io/lizard-on-zotero/images/cover.png">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
@@ -46,7 +46,7 @@
 
       <nav aria-label="Table of contents"><h2>Table of contents</h2>
         <ul class="book-toc list-unstyled">
-<li><a class="" href="index.html"><span class="header-section-number">1</span> 關於</a></li>
+<li><a class="" href="index.html"><span class="header-section-number">1</span> 關於本書</a></li>
 <li><a class="" href="zotero%E7%B0%A1%E4%BB%8B.html"><span class="header-section-number">2</span> Zotero簡介</a></li>
 <li><a class="" href="%E9%A6%96%E6%AC%A1%E6%89%93%E9%96%8Bzotero%E7%9A%84%E8%A8%AD%E5%AE%9A.html"><span class="header-section-number">3</span> 首次打開Zotero的設定</a></li>
 <li><a class="" href="better-bibtex-%E8%A8%AD%E5%AE%9A.html"><span class="header-section-number">4</span> Better BibTex 設定</a></li>
@@ -68,32 +68,32 @@
 <h1>
 <span class="header-section-number">5</span> 同步檔案<a class="anchor" aria-label="anchor" href="#%E5%90%8C%E6%AD%A5%E6%AA%94%E6%A1%88"><i class="fas fa-link"></i></a>
 </h1>
-<div id="檔案路徑" class="section level2" number="5.1">
+<div id="zotfile" class="section level2" number="5.1">
 <h2>
-<span class="header-section-number">5.1</span> 檔案路徑<a class="anchor" aria-label="anchor" href="#%E6%AA%94%E6%A1%88%E8%B7%AF%E5%BE%91"><i class="fas fa-link"></i></a>
+<span class="header-section-number">5.1</span> Zotfile<a class="anchor" aria-label="anchor" href="#zotfile"><i class="fas fa-link"></i></a>
 </h2>
+<ul>
+<li><a href="https://zhuanlan.zhihu.com/p/354935393">zotero文献管理器插件：ZotFile - 知乎</a></li>
+</ul>
 </div>
-<div id="zotfile" class="section level2" number="5.2">
+<div id="連結資料夾" class="section level2" number="5.2">
 <h2>
-<span class="header-section-number">5.2</span> Zotfile<a class="anchor" aria-label="anchor" href="#zotfile"><i class="fas fa-link"></i></a>
+<span class="header-section-number">5.2</span> 連結資料夾<a class="anchor" aria-label="anchor" href="#%E9%80%A3%E7%B5%90%E8%B3%87%E6%96%99%E5%A4%BE"><i class="fas fa-link"></i></a>
 </h2>
-</div>
-<div id="連結資料夾" class="section level2" number="5.3">
-<h2>
-<span class="header-section-number">5.3</span> 連結資料夾<a class="anchor" aria-label="anchor" href="#%E9%80%A3%E7%B5%90%E8%B3%87%E6%96%99%E5%A4%BE"><i class="fas fa-link"></i></a>
-</h2>
-<div id="mac" class="section level3" number="5.3.1">
+<div id="mac" class="section level3" number="5.2.1">
 <h3>
-<span class="header-section-number">5.3.1</span> Mac<a class="anchor" aria-label="anchor" href="#mac"><i class="fas fa-link"></i></a>
+<span class="header-section-number">5.2.1</span> Mac<a class="anchor" aria-label="anchor" href="#mac"><i class="fas fa-link"></i></a>
 </h3>
 <pre><code>ln -s /Volumes/GoogleDrive/我的雲端硬碟/Zotero/storage ~/Zotero/storage</code></pre>
 </div>
-<div id="windows" class="section level3" number="5.3.2">
+<div id="windows" class="section level3" number="5.2.2">
 <h3>
-<span class="header-section-number">5.3.2</span> Windows<a class="anchor" aria-label="anchor" href="#windows"><i class="fas fa-link"></i></a>
+<span class="header-section-number">5.2.2</span> Windows<a class="anchor" aria-label="anchor" href="#windows"><i class="fas fa-link"></i></a>
 </h3>
 <pre><code>mklink /j "C:\Users\YOUR_USER_NAME\Zotero\storage" "C:\Users\YOUR_USER_NAME\"Google Drive"\Zotero\storage"</code></pre>
-
+<ul>
+<li><a href="https://zhuanlan.zhihu.com/p/390596338">利用OneDrive实现两台电脑间Zotero文献库的同步 - 知乎</a></li>
+</ul>
 </div>
 </div>
 </div>
@@ -104,12 +104,11 @@
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
       <ul class="nav navbar-nav">
 <li><a class="nav-link" href="#%E5%90%8C%E6%AD%A5%E6%AA%94%E6%A1%88"><span class="header-section-number">5</span> 同步檔案</a></li>
-<li><a class="nav-link" href="#%E6%AA%94%E6%A1%88%E8%B7%AF%E5%BE%91"><span class="header-section-number">5.1</span> 檔案路徑</a></li>
-<li><a class="nav-link" href="#zotfile"><span class="header-section-number">5.2</span> Zotfile</a></li>
+<li><a class="nav-link" href="#zotfile"><span class="header-section-number">5.1</span> Zotfile</a></li>
 <li>
-<a class="nav-link" href="#%E9%80%A3%E7%B5%90%E8%B3%87%E6%96%99%E5%A4%BE"><span class="header-section-number">5.3</span> 連結資料夾</a><ul class="nav navbar-nav">
-<li><a class="nav-link" href="#mac"><span class="header-section-number">5.3.1</span> Mac</a></li>
-<li><a class="nav-link" href="#windows"><span class="header-section-number">5.3.2</span> Windows</a></li>
+<a class="nav-link" href="#%E9%80%A3%E7%B5%90%E8%B3%87%E6%96%99%E5%A4%BE"><span class="header-section-number">5.2</span> 連結資料夾</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#mac"><span class="header-section-number">5.2.1</span> Mac</a></li>
+<li><a class="nav-link" href="#windows"><span class="header-section-number">5.2.2</span> Windows</a></li>
 </ul>
 </li>
 </ul>
@@ -129,7 +128,7 @@
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>跟著蜥蜴學Zotero</strong>" was written by 林協霆醫師. It was last built on 2022-08-31.</p>
+    <p>"<strong>跟著蜥蜴學Zotero</strong>" was written by 林協霆醫師. It was last built on 2022-09-01.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">
