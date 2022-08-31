@@ -6,5 +6,5 @@ Zotero是開源的書目管理系統，自從換電腦後，原本學生時期�
 ## 關於作者
 * 林協霆
 * 在和信治癌中心醫院Koo Foundation Sun Yat-Sen Cancer Center - 和信醫院擔任內科阿珊
-🦎 [blog](https://htlin.site/)
-📬 1izard@duck.com
+* 🦎 [blog](https://htlin.site/)
+* 📬 1izard@duck.com

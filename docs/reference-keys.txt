@@ -7,6 +7,8 @@ zotero-v.s.-endnote-v.s.-mendeley
 引用格式
 首次打開zotero的設定
 下載與安裝
+偏好設定
+安裝外掛
 better-bibtex-設定
 何謂citation-key
 better-bibtex-設定-1
@@ -17,6 +19,10 @@ mac
 windows
 從網頁收集文獻
 安裝edge-chrome外掛
+小技巧設定快速鍵
+常見的錯誤
+只有存到網頁沒有存到條目
+出現錯誤訊息
 沒有存到pdf
 researchrabbit
 如何管理好檔案
