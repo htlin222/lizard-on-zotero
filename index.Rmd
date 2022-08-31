@@ -5,8 +5,9 @@ date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
-url: https://zotero.ddns.net
+url: https://htlin222.github.io/lizard-on-zotero/
 cover-image: images/cover.png
+socialImage: images/cover.png
 description: |
   一本如何使用Zotero的小小書
 biblio-style: apalike
