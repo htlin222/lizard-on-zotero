@@ -2,10 +2,7 @@ fig:nice-fig
 tab:nice-tab
 eq:binom
 thm:tri
-about
-usage
-render-book
-preview-book
+關於
 hello-bookdown
 a-section
 cross
@@ -19,7 +16,4 @@ blocks
 equations
 theorems-and-proofs
 callout-blocks
-sharing-your-book
-publishing
-pages
-metadata-for-sharing
+zotero與obisidan整合
