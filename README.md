@@ -1,1 +1,1 @@
-本書連結：htlin222.github.io/lizard-on-zotero
+本書連結：[htlin222/lizard-on-zotero](https://github.com/htlin222/lizard-on-zotero)
