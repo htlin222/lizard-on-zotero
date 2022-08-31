@@ -1,1 +1,1 @@
-本書連結：[htlin222/lizard-on-zotero](https://github.com/htlin222/lizard-on-zotero)
+[跟著蜥蜴學Zotero](https://zotero.ddns.net/index.html)
