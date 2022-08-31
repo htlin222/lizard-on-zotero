@@ -2,6 +2,9 @@
 關於作者
 zotero簡介
 zotero-v.s.-endnote-v.s.-mendeley
+zotero
+endnote
+mendeley
 資料庫
 一則條目包含的元素
 引用格式
