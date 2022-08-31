@@ -1,1 +1,1 @@
-[跟著蜥蜴學Zotero](https://zotero.ddns.net/index.html)
+[跟著蜥蜴學Zotero](https://htlin222.github.io/lizard-on-zotero/)
