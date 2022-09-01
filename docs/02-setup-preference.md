@@ -1,9 +1,24 @@
 # 首次打開Zotero的設定
+
 ## 下載與安裝
-* [資料庫說明與指引 / Zotero 書目管理軟體 | 逢甲大學圖書館](https://web.lib.fcu.edu.tw/library/eresources/edb_guides/zotero.html)
+
+* 如何安裝軟體相信應該不用多介紹，去官方網站點選下載，按照平常安裝軟體的方式即可，如果你是Mac電腦的用使用者，可以考慮用`homebrew`來下載：
+```
+brew install --cask zotero
+```
+### 公用電腦不給安裝怎麼辦？
+* 可以到[這裡](https://github.com/pedrom34/ZoteroPortable-dev-repo)下載免安裝版
 
 ## 偏好設定
+* 首先最重要的，是把語言改成英文，因為如果是用中文的話，之後用的外掛(Zotfile)重新命名檔案的時候會把作者「et al」，翻譯成「等人」。另外，因為大部分的外掛都是英文社群所貢獻的，用英文的介面來示範也比較好跟官方的教學對照。因此先到偏好設定裡改好語言。設定好後會被要求重新啟動軟體。
+![image_22-09-01_19_14_23](https://i.imgur.com/Ekg8VvA.png)
+* 接著，到官方網站申請一個免費的帳戶，免費帳戶可以有300MB的雲端空間，這300MB非常的珍貴，所以我們不放太大的PDF文件在這裡，我們要善用它同步必要的部分，例如：書目、筆記等
+* 辦好帳號的下一步，到偏好設定裡面登入後。把同步副件的選項關閉，這樣子才不會佔用我們寶貴的空間。
+* 在下方同步文件的部分，兩個都不要勾選。
+![image_22-09-01_19_21_21](https://i.imgur.com/loqIbap.png)
 
 ## 安裝外掛
+### 安裝方式
+### 安裝列表
 * [plugins](https://www.zotero.org/support/plugins)
 * [Zotero常用插件一锅端 - 知乎](https://zhuanlan.zhihu.com/p/508158465)
