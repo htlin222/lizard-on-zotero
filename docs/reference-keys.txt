@@ -3,10 +3,12 @@
 關於作者
 zotero簡介
 zotero-v.s.-endnote-v.s.-mendeley
+相關比較文章
 zotero入門文章
 關於zotero資料庫
 tldr
 書目bibliography是什麼
+引用格式
 首次打開zotero的設定
 下載與安裝
 公用電腦不給安裝怎麼辦
