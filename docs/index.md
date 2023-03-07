@@ -1,7 +1,7 @@
 ---
 title: "跟著蜥蜴學Zotero"
 author: "林協霆醫師"
-date: "2022-09-02"
+date: "2023-03-07"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -21,10 +21,12 @@ Zotero是開源的書目管理系統，自從換電腦後，原本學生時期�
 最後特別將此書獻給太太 [陳睨](https://www.facebook.com/caseychen1996)，希望在讀研究所的她，可以從這本書得到靈感。(雖然我猜最後應該會是我直接幫忙設定好啦)
 
 ## 如何使用本書
+
 筆者從事軟體教學多年，認為軟體的本質都是在服務人，增進我們的生活、節省我們的時間，因此本書會儘量說明為什麼要如此這般操作某個功能，其可以為我們帶來什麼便利，以及這些功能的組合可以帶來什麼要的效果。本書章與章之間是連續的，如果之前從未使用過Zotero，建議照著順序一章一章地看下去，照著同樣的步驟設定。有些操作可能會用到簡單的程式或語法，可能陌生，我會儘量多做說明。
 
 ## 關於作者
-* 林協霆
-* 在和信治癌中心醫院Koo Foundation Sun Yat-Sen Cancer Center - 和信醫院擔任內科阿珊
-* 🦎 [blog](https://htlin.site/)
-* 📬 1izard@duck.com
+
+-   林協霆
+-   在和信治癌中心醫院Koo Foundation Sun Yat-Sen Cancer Center - 和信醫院擔任內科阿珊
+-   🦎 [blog](https://htlin.site/)
+-   📬 [1izard\@duck.com](mailto:1izard@duck.com){.email}

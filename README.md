@@ -1,3 +1,10 @@
+---
+title: "README"
+date: "2023-03-07"
+---
+
+# README
+
 本書連結：[跟著蜥蜴學Zotero](https://htlin222.github.io/lizard-on-zotero/)
 
 ## 關於本書
@@ -8,3 +15,15 @@ Zotero是開源的書目管理系統，自從換電腦後，原本學生時期�
 	* 在和信治癌中心醫院當內科R3
 * 🦎 [blog](https://htlin.site/)
 * 📬 1izard@duck.com
+
+## How to build
+
+in command line:
+```
+R
+```
+
+```R
+install.packages(c("downlit", "xml2","bookdown"))
+rmarkdown::render_site(output_format = 'bookdown::bs4_book', encoding = 'UTF-8')
+```

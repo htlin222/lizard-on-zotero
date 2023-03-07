@@ -2,6 +2,7 @@
 如何使用本書
 關於作者
 zotero簡介
+zotero的使用scenario
 zotero-v.s.-endnote-v.s.-mendeley
 相關比較文章
 zotero入門文章
