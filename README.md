@@ -16,14 +16,8 @@ Zotero是開源的書目管理系統，自從換電腦後，原本學生時期�
 * 🦎 [blog](https://htlin.site/)
 * 📬 1izard@duck.com
 
-## How to build
-
-in command line:
-```
-R
-```
-
-```R
-install.packages(c("downlit", "xml2","bookdown"))
-rmarkdown::render_site(output_format = 'bookdown::bs4_book', encoding = 'UTF-8')
+## For Development
+* Run the following command to build the book
+```shell
+Rscript build.R
 ```
