@@ -25,11 +25,3 @@ brew install --cask zotero
 
 接著去辦一個zotero的會員，免費版有300MB的空間可以用：[Register](https://www.zotero.org/user/register/)，什麼？你說只有300MB，那我那上百篇paper的pdf檔要怎麼辦？別擔心，我們可以利用自己的雲端空間 e.g. GoogleDrive, iCloud, OneDrive來同步的你的檔案
 
-## 安裝外掛
-
-- zotero 的外掛的副檔名都是`.xpi`
-- 因為是開源的關係，大部分的外掛都是在github下載
-- [官方整理的外掛列表](https://www.zotero.org/support/plugins)
-- [Zotero常用插件一锅端 - 知乎](https://zhuanlan.zhihu.com/p/508158465)
-
-> 推薦的外掛詳見下一頁

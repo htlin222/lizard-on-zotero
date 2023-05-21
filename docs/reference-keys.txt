@@ -15,7 +15,6 @@ tldr
 公用電腦不給安裝怎麼辦
 偏好設定
 辦一個會員
-安裝外掛
 外掛列表
 必裝
 better-bibtex-for-zotero
