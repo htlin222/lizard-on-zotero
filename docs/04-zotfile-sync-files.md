@@ -6,7 +6,7 @@
 * [zotero文献管理器插件：ZotFile - 知乎](https://zhuanlan.zhihu.com/p/354935393)
 
 ## 連結資料夾
-
+...
 ### Mac
 ```
 ln -s /Volumes/GoogleDrive/我的雲端硬碟/Zotero/storage ~/Zotero/storage
